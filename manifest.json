@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Ghost Job Scanner",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "content_scripts": [
+        {
+            "matches": ["*://*.linkedin.com/*", "*://*.indeed.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
