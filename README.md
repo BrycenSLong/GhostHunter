@@ -18,6 +18,11 @@ This extension acts as a **Heuristic Scanner** for your browser:
 **Visual Triage**: It applies color-coded warnings (Red/Orange) directly to the UI so you can skip low-quality leads instantly.
 **Local Persistence**: It uses `chrome.storage.local` to remember jobs you've seen, allowing it to detect when a job is "silently" reposting with a new ID.
 
+## 🌐 Supported Sites
+- **LinkedIn:** ✅️ Supported (Alpha)
+- **Indeed:** 🚧️ Under Development (comming soon)
+- **Glassdoor:** 🗓️ Planned for future release
+
 ## 🔒 Privacy & Security (OPSEC)
 - **Local Only:** No data is sent to a backend. Your history stays in your browser.
 - **Permission-Light:** Only requires the storage and scripting permissions necessary to function.
